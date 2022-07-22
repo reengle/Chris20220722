@@ -28,5 +28,13 @@ Project:
    Uri: 'urn:FTOptix:Retentivity'
    Module: FTOptix.Retentivity
    Version: 3.0
+  8:
+   Uri: 'urn:FTOptix:Datalogger'
+   Module: FTOptix.Datalogger
+   Version: 13.0
+  9:
+   Uri: 'urn:FTOptix:Store'
+   Module: FTOptix.Store
+   Version: 2.1
  Nodes:
  - File: Nodes/Chris20220722.yaml
