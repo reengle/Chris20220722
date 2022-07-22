@@ -1,2 +1,24 @@
 Name: Alarms
 Type: FolderType
+Children:
+- Name: ExclusiveLevelAlarm1
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=10;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=10;i=83
+    Direction: Forward

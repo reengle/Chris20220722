@@ -36,5 +36,9 @@ Project:
    Uri: 'urn:FTOptix:Store'
    Module: FTOptix.Store
    Version: 2.1
+  10:
+   Uri: 'urn:FTOptix:Alarm'
+   Module: FTOptix.Alarm
+   Version: 7.1
  Nodes:
  - File: Nodes/Chris20220722.yaml
